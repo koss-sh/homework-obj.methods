@@ -7,8 +7,10 @@ public class Main {
         System.out.println(author1);
         System.out.println(author2);
         Book book1 = new Book("It", author1, 1990);
-        Book book2 = new Book("1984", author2, 2000);
+        Book book2 = new Book("1984", author2, 1948);
         System.out.println(book1);
         System.out.println(book2);
+        book1.setPublishingYear(1995);
+        System.out.println(book1);
     }
 }
